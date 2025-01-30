@@ -2,9 +2,9 @@
 
 *Detecting Premature Ventricular Contractions (PVCs) Using 1D CNNs*
 
-Code notebook: ecg_analysis.ipynb
+**Code notebook:** ecg_analysis.ipynb
 
-Python environment used: environment.yml
+**Python environment:** environment.yml
 
 
 ## 1. Data Acquisition & Preparation
