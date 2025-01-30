@@ -2,6 +2,10 @@
 
 *Detecting Premature Ventricular Contractions (PVCs) Using 1D CNNs*
 
+Code notebook: ecg_analysis.ipynb
+
+Python environment used: environment.yml
+
 
 ## 1. Data Acquisition & Preparation
 
@@ -100,7 +104,7 @@ Use Generator class to apply random transformations of training data to simulate
 - 99% recall on PVCs minimizes missed critical events
 - Deployable as preliminary screening tool for Holter monitoring
 
-[<img src="images/confusion_matrix.png">]
+<img src="images/confusion_matrix.png">
 
 
 ## 7. Model Interpretation
@@ -108,10 +112,10 @@ Use Generator class to apply random transformations of training data to simulate
 **Grad-CAM Visualization:**
 
 Normal (N) QRS Samples:
-[<img src="images/normal_grad_cam.png">]
+<img src="images/normal_grad_cam.png">
 
 Premature Ventricular Contraction (V) Samples:
-[<img src="images/pvc_grad_cam.png">]
+<img src="images/pvc_grad_cam.png">
 
 
 **Key Insights:**
